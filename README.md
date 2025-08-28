@@ -26,6 +26,19 @@ dataset/
   <style2>/
     ...
 ```
+예시:
+```
+dataset/
+  anime/
+    girl1.png
+    girl2.jpg
+  landscape/
+    sunduck_view.webp
+    ...
+```
+
+
+
 일반적인 이미지 포맷을 지원하며, 내부적으로 한 번 `PNG`로 정규화하여 중복 디코딩을 줄입니다.
 
 ## 설정 (main.py 상단 상수)
